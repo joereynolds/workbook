@@ -1,18 +1,18 @@
 
 
-# Show all units
+## Show all units
 
 ```
 systemctl
 ```
 
-# Do it explicitly
+## Do it explicitly
 
 ```
 systemctl list-units
 ```
 
-# Get the status of a unit
+## Get the status of a unit
 
 (using sys-module-fuse.device as our example unit )
 
@@ -20,9 +20,12 @@ systemctl list-units
 systemctl status sys-module-fuse.device
 ```
 
-# Show the units properties (useful for debugging)
+## Show the units properties (useful for debugging)
 
 ```
 systemctl show sys-module-fuse.device
 ```
+
+# Exercises
+
 
